@@ -1,5 +1,5 @@
 
-import React,{userState} from "react";
+import React,{useState} from "react";
 const App = ()=>{
 
   const [count,setCount] = useState(0)
@@ -10,8 +10,8 @@ const App = ()=>{
   return (
     <div >
     <p>Button clicked {count} times</p>
-  <button onClick={onAdd}>Click me</button>
+    <button onClick={onAdd}>Click me</button>
     </div>
-)
+  )
 }
 export default App
